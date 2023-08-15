@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8af3734-d8b7-45cc-ab7d-f5df856e32db" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2Tc3EVncUTCSVouoWIWskdx9c8g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/Piyas30 batch/xampp/htdocs/batch30" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8af3734-d8b7-45cc-ab7d-f5df856e32db" name="Default Changelist" comment="" />
+      <created>1691328429362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691328429362</updated>
+      <workItem from="1691328430528" duration="4698000" />
+      <workItem from="1691379452793" duration="138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="187" key="FileChooserDialogImpl" timestamp="1691379589186">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="447" y="187" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1691379589186" />
+    <state x="318" y="167" key="NewPhpClassDialog" timestamp="1691328583311">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="318" y="167" key="NewPhpClassDialog/0.0.1280.984@0.0.1280.984" timestamp="1691328583311" />
+    <state x="431" y="399" key="NewPhpFileDialog" timestamp="1691330101206">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="431" y="399" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1691330101206" />
+    <state x="39" y="50" key="SettingsEditor" timestamp="1691329633475">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="39" y="50" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1691329633475" />
+  </component>
+</project>
