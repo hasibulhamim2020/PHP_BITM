@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ed5e04c-8f17-4aad-9b44-e36b3d41d89b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2TeBQfczzYgGrb1BWHzQKeRDg81" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ed5e04c-8f17-4aad-9b44-e36b3d41d89b" name="Default Changelist" comment="" />
+      <created>1691393651079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691393651079</updated>
+      <workItem from="1691393652377" duration="274000" />
+      <workItem from="1691396046480" duration="9839000" />
+      <workItem from="1691480502548" duration="7203000" />
+      <workItem from="1691489521311" duration="3667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="467" y="190" key="FileChooserDialogImpl" timestamp="1691393925768">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="467" y="190" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1691393925768" />
+    <state x="313" y="158" key="NewPhpClassDialog" timestamp="1691489198275">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="313" y="158" key="NewPhpClassDialog/0.0.1280.984@0.0.1280.984" timestamp="1691489198275" />
+    <state x="477" y="397" key="NewPhpFileDialog" timestamp="1691492489182">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="477" y="397" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1691492489182" />
+    <state x="16" y="50" key="SettingsEditor" timestamp="1691393713784">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="16" y="50" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1691393713784" />
+    <state x="0" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1691399541099">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="0" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.984@0.0.1280.984" timestamp="1691399541099" />
+  </component>
+</project>

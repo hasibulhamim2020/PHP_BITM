@@ -1,0 +1,15 @@
+{
+  "name": "class-22-project/class-22-project",
+  "type": "project",
+  "description": "a simple project from class 16 file",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app//"
+    },
+    "files": ["app/helpers/helpers.php"]
+  }
+}

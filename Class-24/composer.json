@@ -1,0 +1,20 @@
+{
+  "name": "class-24/class-24",
+  "type": "project",
+  "description": "A simple project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "authors": [
+    {
+      "name": "Hasibul Hamim",
+      "email": "hamimhasibul72@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}

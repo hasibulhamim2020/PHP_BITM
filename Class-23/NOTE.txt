@@ -1,0 +1,21 @@
+array,
+condition,
+loop,
+class,
+object,
+function,
+encapsulation,
+sassion.
+
+array keys
+array values
+array count
+
+string method..min->5..hw
+
+
+
+
+
+
+

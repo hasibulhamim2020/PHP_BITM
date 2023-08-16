@@ -1,0 +1,11 @@
+{
+    "name": "day-25/day-25",
+    "description": "a simple php project",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app//"
+        }
+    }
+}

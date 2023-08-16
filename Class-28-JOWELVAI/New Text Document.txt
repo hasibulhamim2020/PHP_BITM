@@ -1,0 +1,7 @@
+
+
+		# Create your own protfolio ( 5 pages )
+		# ovaer view
+		# mission vision 
+		# implimant OOP 
+		# without auto composer
