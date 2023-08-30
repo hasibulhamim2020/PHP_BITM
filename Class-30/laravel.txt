@@ -1,0 +1,5 @@
+composer create-project laravel/laravel first-project
+
+ php artisan serve
+
+ 
