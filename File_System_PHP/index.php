@@ -25,8 +25,57 @@
 <body>
 
 <?php
+
+$dir = scandir(getcwd());
+
+foreach ($dir as $d){
+    if ('.' != $d && '..' != $d){
+        if (is_dir($d)){
+            echo "<li>
+                        <li>
+                        <i class=\"fa-solid fa-folder-open folder\"></i> <br> {$d} <br> <br>
+                        </li>
+                        </ul>";
+        }
+    }
+}
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+// echo "<br>";
+foreach ($dir as $d){
+    if ('.' != $d && '..' != $d){
+        if (!is_dir($d)){
+            echo "<li>
+                        <li>
+                        <i class=\"fa-brands fa-php file\"></i> <br> {$d} <br> <br>
+                        </li>
+                        </ul>";
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $allData = scandir(getcwd());
 $directory = [];
+$npdirectory = [];
 $file =[];
 
 // print_r($file);
@@ -35,6 +84,8 @@ $file =[];
 $msg ="";
 $fmsg ="";
 $dmsg="";
+$ddrmsg="";
+$ddrnpmsg="";
 if(isset($_POST['btn'])){
     if(!file_exists($_POST['dn'])){
         mkdir("{$_POST['dn']}","0777",true);
@@ -75,38 +126,40 @@ if(isset($_POST['dbtn'])){
         $dmsg = "file not exists";
     }
 }
-
-
-$dir = scandir(getcwd());
-
-foreach ($dir as $d){
-    if ('.' != $d && '..' != $d){
-        if (is_dir($d)){
-            echo "<li>
-                        <li>
-                        <i class=\"fa-solid fa-folder-open folder\"></i> <br> {$d} <br> <br>
-                        </li>
-                        </ul>";
-        }
+if(isset($_POST['ddrbtn'])){
+    if(rmdir("{$_POST['ddr-file']}")){
+        $ddrmsg = "file deleted successfully";
+    }else{
+        $ddrmsg = "file not exists";
     }
 }
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-// echo "<br>";
-foreach ($dir as $d){
-    if ('.' != $d && '..' != $d){
-        if (!is_dir($d)){
-            echo "<li>
-                        <li>
-                        <i class=\"fa-brands fa-php file\"></i> <br> {$d} <br> <br>
-                        </li>
-                        </ul>";
-        }
+
+if (isset($_POST['ddrnpbtn'])) {
+    $targetDirectory = $_POST['ddrnp-file'];
+    
+    if (deleteDirectory($targetDirectory)) {
+        $ddrnpmsg = "Directory deleted successfully";
+    } else {
+        $ddrnpmsg = "Failed to delete directory";
     }
 }
+
+function deleteDirectory($dir) {
+
+    $files = array_diff(scandir($dir), array('.', '..'));
+    foreach ($files as $file) {
+        $filePath = "$dir/$file";
+        if (is_dir($filePath)) {
+            deleteDirectory($filePath);
+        } else {
+            unlink($filePath);
+        }
+    }
+    
+    return rmdir($dir);
+}
+
+
 ?>
 
 
@@ -177,6 +230,61 @@ foreach ($dir as $d){
 
                         <div class="mb-3">
                             <input type="submit" class="form-control btn btn-danger" id="" value="submit-name" name="dbtn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto bg-info mt-5 p-4">
+                    <form action="" method="POST">
+                        <div class="mb-3">
+                            <h3> <?php echo $ddrmsg?></h3>
+                            <label for="fn" class="form-label">Select to delete directory</label>
+                            <select class="form-select" aria-label="Default select example" name="ddr-file">
+                                <option selected>Select directory</option>
+                                <?php foreach ($directory as $d):  ?>
+                                <option value="<?php echo $d; ?>"><?php echo $d; ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="submit" class="form-control btn btn-danger" id="" value="submit-name" name="ddrbtn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto bg-info mt-5 p-4">
+                    <form action="" method="POST">
+                        <div class="mb-3">
+                            <h3> <?php echo $ddrnpmsg?></h3>
+                            <label for="fn" class="form-label">Select to delete non empty directory</label>
+                            <select class="form-select" aria-label="Default select example" name="ddrnp-file">
+                                <option selected>Select non empty directory</option>
+                                <?php foreach ($directory as $dnp):  ?>
+                                <option value="<?php echo $dnp; ?>"><?php echo $dnp; ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="submit" class="form-control btn btn-danger" id="" value="submit-name" name="ddrnpbtn">
                         </div>
                     </form>
                 </div>
